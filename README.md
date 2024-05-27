@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application to search for the weather of a city and save the request history. The application has a login and password system, where only registered and logged-in users can delete items from the search history.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+- Node.js installed (https://nodejs.org/)
+- NPM or Yarn installed (NPM comes with Node.js)
+- Clone and run the specific API available at: [Django-Weather-Api](https://github.com/lucasgearhead/Django-Weather-Api). The front-end will connect to the API on port `:8000`.
 
-### `npm start`
+## Cloning and Starting the App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the repository:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/lucasgearhead/React-Weather-Front
+   cd React-Weather-Front
+   ```
 
-### `npm test`
+2. **Install dependencies:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - Using NPM:
+     ```bash
+     npm install
+     ```
+   - Using Yarn:
+     ```bash
+     yarn install
+     ```
 
-### `npm run build`
+3. **Start the application:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - Using NPM:
+     ```bash
+     npm start
+     ```
+   - Using Yarn:
+     ```bash
+     yarn start
+     ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Access the application:**
+   Open your browser and go to [http://localhost:3000](http://localhost:3000).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Connecting to the API
 
-### `npm run eject`
+This application requires the Django-Weather-Api to be running on port `:8000`. Be sure to follow the instructions in the [Django-Weather-Api](https://github.com/lucasgearhead/Django-Weather-Api) repository to set it up and start it before using the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Login and Registration:**
+  - Allows users to register and log in.
+- **Search Weather:**
+  - Allows searching for the weather of a specific city.
+- **Search History:**
+  - Saves the history of weather searches.
+  - Only logged-in users can delete items from the history.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Warning
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+It is necessary to run the specific API available at [Django-Weather-Api](https://github.com/lucasgearhead/Django-Weather-Api), as the front-end connects to the API on port `:8000`.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `src/`: Contains the React source files.
+  - `components/`: Reusable React components.
+  - `pages/`: Main application pages.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Contact
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or issues, feel free to open an issue in the repository or get in touch.
