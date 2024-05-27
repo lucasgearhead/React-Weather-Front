@@ -58,7 +58,7 @@ function LoginPage({ setToken, setUser }) {
         <button type="submit">Login</button>
       </form>
       <p>
-        Não tem uma conta? <a href="/register">Cadastrar</a>
+        Don't have an account? <a href="/register">Register</a>
       </p>
     </div>
   );
