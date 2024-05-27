@@ -5,7 +5,7 @@ import "./WeatherPage.css";
 function WeatherPage() {
   const [city, setCity] = useState("");
   const [units, setUnits] = useState("metric");
-  const [appid, setAppId] = useState("b32bf22decdbfc851eac42a3cf124f88"); // Insira sua chave de API do OpenWeatherMap aqui
+  const [appid, setAppId] = useState("your-api-key"); // Insira sua chave de API do OpenWeatherMap aqui
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
 
