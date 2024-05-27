@@ -1,0 +1,48 @@
+.weather-history-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.weather-summary {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weather-summary:hover {
+  background-color: #e0e0e0;
+}
+
+.weather-summary p {
+  margin: 5px 0;
+}
+
+.weather-details {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.weather-details p {
+  margin: 5px 0;
+}
+
+.weather-details button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.weather-details button:hover {
+  background-color: #c82333;
+}
